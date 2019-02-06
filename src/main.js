@@ -10,7 +10,7 @@ require("bootstrap");
 require("./scss/app.scss");
 window.Swal = require("sweetalert2");
 import "sweetalert2/src/sweetalert2.scss";
-
+window.CryptoJS = require("crypto-js");
 import * as firebase from "firebase/app";
 import "firebase/database";
 window.firebase = firebase;
